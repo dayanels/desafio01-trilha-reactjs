@@ -1,0 +1,36 @@
+.header {
+  background: var(--gray-700);
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-rocket {
+  width: 2.2rem;
+  height: 3.6rem;
+  margin-right: 1.2rem;
+}
+
+.logo {
+  font-weight: 900;
+  width: 9.2rem;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  font-size: 4rem;
+
+}
+
+.logo span:first-child {
+  color: var(--blue);
+}
+
+.logo span:last-child {
+  color: var(--purple-dark);
+}

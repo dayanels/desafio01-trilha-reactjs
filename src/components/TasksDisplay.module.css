@@ -1,0 +1,76 @@
+.contentTask {
+  width: 100%;
+  display: flex;
+  background: var(--gray-400);
+  border-radius: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.contentTask p {
+  margin-inline: 1.2rem;
+  margin-block: 1.6rem;
+  width: 100%;
+}
+
+.statusTaskFalse {
+  margin-top: 1.6rem;
+  margin-inline: 1.6rem;
+  clip-path: circle(50% at 50% 50%);
+  background: var(--gray-400);
+  border-radius: 100%;
+  border: 0.28rem solid var(--blue);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.statusTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.6rem;
+  border-radius: 100%;
+  clip-path: circle(50% at 50% 50%);
+  border: 1px solid var(--purple-dark);
+  background: var(--purple-dark);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.statusTask img {
+  width: 1.745rem;
+  height: 1.745rem;
+  padding: 0.25rem;
+}
+
+.iconTrashbutton {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 1.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.iconTrashbutton svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.iconTrashbutton:hover {
+  cursor: pointer;
+}
+.iconTrashbutton svg:hover path {
+  fill: var(--danger);
+}
+
+.textNormal {
+  color: var(--gray-100);
+  font-size: 1.6rem;
+  font-family: "Inter";
+}
+
+.textStyled {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
